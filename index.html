@@ -2,12 +2,15 @@
 
 <style>
 
-content {
-
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
 }
 
+
+
 body {
-    background-color: black;
+    background-color: transparent;
 }
 
 #Logo {
@@ -23,27 +26,42 @@ body {
 }
 
 #search {
-    display: block;
+    display: flex;
+    flex: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.6em;
-    width: 48em;
+    width: 45em;
     height: 3.5em;
     border-radius:30px;
     border: 1px solid lightgray;
     outline: none;
     z-index: 1;
+    padding-left: 4em;
 }
 
 #searchicon {
+    height: 1.3em;
+    width: 1.3em; 
     display: block;
-    margin-left: auto;
+    margin-top: -2.1em;
+    margin-left: 12.7em;
     margin-right: auto;
-    height: auto;
-    width: auto;
-    opacity: 30%
     z-index: 30;
-    margin-top: auto;
+    opacity: 60%;
+}
+
+#searchbtn {
+    display: flex;
+    flex: 100%;
+    margin-top: 3.5em;
+    margin-left: 30em;
+    width: 10em;
+    height: 3em;
+    outline: none;
+    color: darkgrey;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
 }
 
 
@@ -60,6 +78,8 @@ body {
 
 <body>  
 
+<div id="wrapper">
+
 <img id="Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
 <form> 
     <input id="search" type="text"></input>
@@ -68,6 +88,10 @@ body {
 
 <img id="searchicon" src="searchicon.png"></img>
 
+<input id="searchbtn" type="button" value="Google Search"> </input>
+
+
+</div>
 
 </body>
 
