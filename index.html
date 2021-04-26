@@ -14,30 +14,30 @@ body {
 }
 
 #Logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3.6em;
-    width: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 9.7em;  
 }
 
 #search:hover {
-    
+    box-shadow: rgb(202, 202, 202) 1px 1px 2px 1px;
 }
 
 #search {
+    /* Position */
     display: flex;
-    flex: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.6em;
     width: 45em;
     height: 3.5em;
+    /* Styling */
     border-radius:30px;
     border: 1px solid lightgray;
     outline: none;
     z-index: 1;
     padding-left: 4em;
+    background-color: white;
 }
 
 #searchicon {
@@ -52,16 +52,58 @@ body {
 }
 
 #searchbtn {
-    display: flex;
-    flex: 100%;
-    margin-top: 3.5em;
-    margin-left: 30em;
-    width: 10em;
-    height: 3em;
-    outline: none;
-    color: darkgrey;
-    background-color: rgb(245, 245, 245);
-    border-radius: 3px;
+    /* Position */
+    margin-top: 3.2em;
+    margin-left: 28em;
+    width: 10.3em;
+    height: 3.1em;
+    
+}
+
+#luckybtn {
+    /* Position */
+    margin-top: 3.2em;
+    margin-left: 1.3em;
+    width: 11.3em;
+    height: 3.1em;
+}
+
+.btn {
+    border-radius: 2px;
+    font-family: sans-serif;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border-width: 0px;
+}
+
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-family: arial, sans-serif;
+    font-size: small;
+    opacity: 80%;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.left {
+    float: left; 
+}
+
+.right {
+    float: right;  
 }
 
 
@@ -80,15 +122,30 @@ body {
 
 <div id="wrapper">
 
+<ul>
+    <li class="left">About</li>
+    <li class="left">Store</li>
+    <li class="right">Gmail</li>
+    <li class="right">Images</li>
+    <img id="menu" src="menu.png"><img>
+</ul>
+
+<!-- <input id="signin" type="button" value="Sign in"> </input> -->
+
 <img id="Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+
+
 <form> 
     <input id="search" type="text"></input>
     <label for="search"></label>
 </form>
 
+
 <img id="searchicon" src="searchicon.png"></img>
 
-<input id="searchbtn" type="button" value="Google Search"> </input>
+<input id="searchbtn" class="btn" type="button" value="Google Search"> </input>
+
+<input id="luckybtn" class="btn" type="button" value="I'm Feeling Lucky"> </input>
 
 
 </div>
