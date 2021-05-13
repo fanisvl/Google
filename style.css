@@ -1,0 +1,160 @@
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.7em;
+    width: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+#searchbtn {
+    font-size: 13px;
+    background-color:#f8f9fa;
+    text-decoration-color: rgba(209, 209, 209, 0.1);
+    border: 0px;
+    height: 3em;
+    margin-right: 1em;
+}
+
+#luckybtn {
+    font-size: 13px;
+    background-color:#f8f9fa;
+    text-decoration-color: rgba(209, 209, 209, 0.1);
+    border: 0px;
+    height: 3em;
+    margin-left: 1em;
+}
+
+#searchbtn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.062);
+}
+
+#luckybtn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.062);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+#searchbar {
+    width: 45em;
+    height: 3.5em;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    opacity: 65%;
+    outline: none;
+    padding-left: 4em;
+    margin-top: 2.5em;
+    z-index: 1;
+}
+
+#searchicon {
+    position: absolute;
+    z-index: 2;
+    height: 1.3em;
+    width: 1.3em;
+    margin-right: 33.5em;
+    margin-top: 2.6em;
+    opacity: 65%
+    
+}
+
+#searchbar:hover {
+    box-shadow: rgb(202, 202, 202) 1px 1px 2px 1px;
+}
+
+.topbar {
+    margin-top: 1em;
+    margin-right: 7em;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0.7em;
+    font-family: arial, sans-serif;
+    font-size: small;
+    opacity: 80%;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+    opacity: 50%
+}
+
+#profile {
+    border-radius: 80%;
+    margin-left: 1em;
+}
+
+.bottombarup {
+    position: absolute;
+    bottom: 3em;
+    left: 0em;
+    width: 100%;
+    background-color: #f2f2f2;
+
+}
+.bottombardown {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    left: 0em;
+    height: 3em;
+
+}
+
+.bottomtextl {
+    display: inline;
+    font-size: 15px;
+    font-family: arial;
+    padding: 1.5em;
+    float: left;
+    opacity: 50%;
+}
+
+.bottomtextr {
+    display: inline-flex;
+    float: right;
+    padding: 1.5em;
+    font-size: 15px;
+    font-family: arial;
+    opacity: 50%;
+}
+
+.bottomtextl:hover {
+        text-decoration: underline;
+}
+
+.bottomtextr:hover {
+    text-decoration: underline;
+}
