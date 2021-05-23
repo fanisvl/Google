@@ -116,8 +116,9 @@ li:hover {
 }
 
 .bottombarup {
+    height: 3em;
     position: absolute;
-    bottom: 3em;
+    bottom: 4rem;
     left: 0em;
     width: 100%;
     background-color: #f2f2f2;
@@ -129,7 +130,7 @@ li:hover {
     bottom: 0em;
     width: 100%;
     left: 0em;
-    height: 3em;
+    height: 4rem;
 
 }
 
