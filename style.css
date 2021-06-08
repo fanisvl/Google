@@ -62,13 +62,12 @@
 }
 
 #searchicon {
-    position: absolute;
-    z-index: 2;
+    display: flex;
+    position: fixed;
     height: 1.3em;
     width: 1.3em;
-    margin-right: 33.5em;
-    margin-top: 2.6em;
-    opacity: 65%
+    margin-right: 37em;
+    margin-top: 3em;
     
 }
 
@@ -158,4 +157,4 @@ li:hover {
 
 .bottomtextr:hover {
     text-decoration: underline;
-}
+}      
